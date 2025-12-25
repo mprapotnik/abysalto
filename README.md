@@ -11,6 +11,11 @@
 - Swagger:
   - http://localhost:8080/swagger
 
+## Dev token
+- POST /dev/token (samo u Development)
+- primjer:
+  - curl -X POST http://localhost:8080/dev/token -H "Content-Type: application/json" -d '{"userId":"marko"}'
+
 ## Health
 - Liveness:
   - GET http://localhost:8080/health/live

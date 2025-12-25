@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sys\\code\\abysalto\\src\\Abysalto.CartApi\\Abysalto.CartApi.csproj": {}
+    "C:\\Users\\sys\\code\\abysalto\\src\\AbySalto.CartApi\\Abysalto.CartApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sys\\code\\abysalto\\src\\Abysalto.CartApi\\Abysalto.CartApi.csproj": {
+    "C:\\Users\\sys\\code\\abysalto\\src\\AbySalto.CartApi\\Abysalto.CartApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sys\\code\\abysalto\\src\\Abysalto.CartApi\\Abysalto.CartApi.csproj",
+        "projectUniqueName": "C:\\Users\\sys\\code\\abysalto\\src\\AbySalto.CartApi\\Abysalto.CartApi.csproj",
         "projectName": "Abysalto.CartApi",
-        "projectPath": "C:\\Users\\sys\\code\\abysalto\\src\\Abysalto.CartApi\\Abysalto.CartApi.csproj",
+        "projectPath": "C:\\Users\\sys\\code\\abysalto\\src\\AbySalto.CartApi\\Abysalto.CartApi.csproj",
         "packagesPath": "C:\\Users\\sys\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sys\\code\\abysalto\\src\\Abysalto.CartApi\\obj\\",
+        "outputPath": "C:\\Users\\sys\\code\\abysalto\\src\\AbySalto.CartApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,7 +50,11 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "AspNetCore.HealthChecks.NpgSql": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[10.0.1, )"
             },
@@ -60,9 +64,29 @@
               "target": "Package",
               "version": "[10.0.1, )"
             },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[10.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[10.1.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[10.1.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[10.1.0, )"
             }
           },
           "imports": [

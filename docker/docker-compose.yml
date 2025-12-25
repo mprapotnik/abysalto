@@ -2,11 +2,14 @@ services:
   cartapi:
     build:
       context: ..
-      dockerfile: src/Abysalto.CartApi/Dockerfile
+      dockerfile: src/AbySalto.CartApi/Dockerfile
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_URLS=http://+:8080
       - ConnectionStrings__Db=Host=db;Port=5432;Database=cartdb;Username=cart;Password=cart
+      - Jwt__Issuer=AbySalto.Dev
+      - Jwt__Audience=AbySalto.Dev
+      - Jwt__SigningKey=40bf63e94d10646d12852800bdf21482
     ports:
       - "8080:8080"
     depends_on:
