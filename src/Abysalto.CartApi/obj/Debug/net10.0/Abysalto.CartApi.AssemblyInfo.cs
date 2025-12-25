@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Abysalto.CartApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3d7634f7eede514d493eea41aeabbccd493d3d5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65001b057c0d699c310c8727104b53f2390f541d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Abysalto.CartApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Abysalto.CartApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

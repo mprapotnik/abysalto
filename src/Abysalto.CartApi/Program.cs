@@ -10,6 +10,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddDbContext<CartDbContext>(opt =>
     opt.UseNpgsql(builder.Configuration.GetConnectionString("Db")));
 
+builder.Services.AddScoped<CartService>();
 
 var app = builder.Build();
 
